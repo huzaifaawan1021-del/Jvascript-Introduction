@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="cas">
+            <h2>CASIO</h2>
+        </div>
+
+        <div class="num">
+            <span>fx-220Plus</span>
+        </div>
+
+        <div class="edi">
+            <span>2nd edition</span>
+        </div>
+
+        <div class="calc">
+            <input style="background-color: white;" disabled type="text" value="0" placeholder="" id="input">
+        </div>
+
+         <div class="new">
+        <div class="but2">
+            <button onclick="">x⁻¹ </button>
+            <button onclick="">nCr</button>
+            <button onclick="addvalue('%')">%</button>
+            <button onclick="addvalue('Pol(')" style="position: relative ; ">Pol(</button>
+            <button onclick="addvalue('Rec(')" style="position: relative ; ">Rec(</button>
+        </div>
+
+        <div class="but3">
+            <button id="dot" onclick="sqrt()">√</button>
+            <button onclick="sqr()">x⁻²</button>
+            <button onclick="cube()">x⁻³ </button>
+            <button onclick="log()">log</button>
+            <button onclick="">In</button>
+        </div>
+
+        <div class="but4">
+            <button>^</button>
+            <button onclick="hyp()">hyp</button>
+            <button onclick="cos()">cos</button>
+            <button onclick="sin()">sin</button>
+            <button onclick="tan()">tan</button>
+        </div>
+
+        <div class="but5">
+            <button onclick="addvalue('( - )')">( - )</button>
+            <button onclick="addvalue('ENG')">ENG</button>
+            <button onclick="addvalue('( ')">( </button>
+            <button onclick="addvalue(')')">)</button>
+            <button onclick="addvalue('M+')">M+</button>
+        </div>
+
+        <div class="btn1">
+            <button onclick="addvalue('7')">7</button>
+            <button onclick="addvalue('8')">8</button>
+            <button onclick="addvalue('9')">9</button>
+            <button  style="background-color: red; color:white; border-radius:4px; "
+                onclick="del()">DEL</button>
+            <button  style="background-color: red; color:white; border-radius:4px; "
+                onclick="clearall()">AC</button>
+        </div>
+
+        <div class="btn2">
+            <button onclick="addvalue('4')">4</button>
+            <button onclick="addvalue('5')">5</button>
+            <button onclick="addvalue('6')">6</button>
+            <button onclick="addvalue('*')">X</button>
+            <button id="dot" onclick="addvalue('/')">÷</button>
+        </div>
+
+        <div class="btn3">
+            <button onclick="addvalue('1')">1</button>
+            <button onclick="addvalue('2')">2</button>
+            <button onclick="addvalue('3')">3</button>
+            <button id="dot" onclick="addvalue('+')">+</button>
+            <button id="dot" onclick="addvalue('-')">-</button>
+        </div>
+
+        <div class="btn4">
+            <button onclick="addvalue('0')">0</button>
+            <button id="dot" onclick="addvalue('.')">.</button>
+            <button onclick="addvalue('00')">00</button>
+            <button>Ans</button>
+            <button onclick="eual()">=</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
